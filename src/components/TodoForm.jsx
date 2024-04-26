@@ -9,7 +9,7 @@ function TodoForm() {
       e.preventDefault()
 
       if (!todo){
-        alert("Please enter a todo")
+        alert("⚠️ Please enter a todo")
         return
       }
 
