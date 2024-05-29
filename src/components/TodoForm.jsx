@@ -14,7 +14,7 @@ function TodoForm() {
       }
 
       addTodo({ todo, completed: false})
-      setTodo("")
+      setTodo(" ")
 }
 
 return (
@@ -24,7 +24,7 @@ return (
             placeholder="Write Todo..."
             className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-gray-800 py-1.5 text-white"
             value={todo}
-            onChange={(e) => setTodo(e.target.value.trim())}
+            onChange={(e) => setTodo(e.target.value.trim()}
         />
         <button
             type="submit"
